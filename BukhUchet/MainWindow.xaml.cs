@@ -36,7 +36,7 @@ namespace BukhUchet
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            db.SaveChanges();
+            db.SaveChanges(); 
             db.Dispose();
         }
     }
